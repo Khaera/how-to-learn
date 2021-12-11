@@ -335,12 +335,10 @@
 
 
 .footer__column-heading {
-  text-align: center;
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
   margin: 0;
-  width: auto;
 }
 
 .footer__column-links {
