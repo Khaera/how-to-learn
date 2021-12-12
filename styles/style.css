@@ -200,7 +200,6 @@
   font-size: 120px;
   font-weight: bold;
   padding-top: 100px;
-  padding-bottom: 70px;
 
 }
 
@@ -210,6 +209,7 @@
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
+  padding-top: 70px;
 
 }
 
@@ -303,6 +303,7 @@
 }
 
 .logo__place_footer {
+  background-image: url(../images/logo_place_footer.svg);
   width: 183px;
   height: 35px;
 }
