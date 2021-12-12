@@ -81,18 +81,14 @@
   display: flex;
   align-content: center;
   justify-content: center;
-
 }
 
 .two-columns {
-  margin-top: 100px;
-  margin-bottom: 100px;
   display: flex;
   flex-direction: row;
-  align-self: center;
   justify-content: space-between;
   width: 80%;
-  min-width: 784px;
+  margin: 100px auto;
 }
 
 .two-columns__brief {
@@ -100,41 +96,33 @@
   font-size: 18px;
   font-weight: normal;
   color: #2f80ed;
-  width: 550px;
-  margin: 0 auto;
+  width: 175px;
+  margin: 0px;
 }
 
 .two-columns__main-text {
-  margin-left: 100px;
+  width: 80%;
+  min-width: 784px;
+  max-height: 400px;
+  list-style: none;
+  margin: 0;
 }
 
-.two-columns__paragraph1 {
-  margin: 0 auto;
+.two-columns__paragraph {
+  box-sizing: content-box;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-
+  padding-bottom: 30px;
 }
 
-.two-columns__paragraph2 {
-  margin-top: 30px;
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-
-}
 
 .two-columns__span-accent {
   font-weight: bold;
-
-}
-
-.two-columns__paragraph3 {
-  margin-top: 30px;
   line-height: 34px;
   font-size: 24px;
-  font-weight: normal;
 }
+
 
 .digits {
   margin-bottom: 100px;
